@@ -1,0 +1,51 @@
+# Example .gitignore for Java projects
+
+# Ignore general build artifacts and IDE files
+
+# Ignore generated documentation files
+HELP.md
+
+# Ignore Maven and Gradle build output
+target/
+build/
+
+# Allow Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Allow Maven and Gradle build output in specific source directories
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+# Spring Tool Suite (STS) specific
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+# IntelliJ IDEA specific
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+# NetBeans specific
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Allow build directories in specific source directories
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+# Visual Studio Code specific
+.vscode/
